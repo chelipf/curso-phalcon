@@ -1,7 +1,10 @@
 <div class="page-header">
-    <h1>Congratulations!</h1>
+    <h1>User List</h1>
 </div>
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
+{% for user in users %}
 
-<p>This page is located at <code>views/index/index.volt</code></p>
+    <div>{{ user }}</div>
+
+{% endfor %}
+
