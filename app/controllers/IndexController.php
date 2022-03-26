@@ -6,7 +6,7 @@ class IndexController extends ControllerBase
 
     public function indexAction()
     {
-        $users = $this->modelsManager->executeQuery("SELECT id, email FROM User");
+        $users = User::find();
 
         $this->view->users = $users;
     }
