@@ -4,7 +4,7 @@
 
 {% for user in users %}
 
-    <div>{{ user }}</div>
+    <div>{{ user.id ~ ' - ' ~ user.email }}</div>
 
 {% endfor %}
 
