@@ -2,9 +2,10 @@
     <h1>User List</h1>
 </div>
 
-{% for user in users %}
+<div class="row">
+    {% for user in users %}
 
-    <div>{{ user.id ~ ' - ' ~ user.email }}</div>
+        <div class="col">{{ user.id ~ ' - ' ~ user.email }}</div>
 
-{% endfor %}
-
+    {% endfor %}
+</div>
