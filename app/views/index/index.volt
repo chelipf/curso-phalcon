@@ -3,7 +3,7 @@
 </div>
 
 <div class="justify">
-    En este ejemplo vamos a poner un texto.
+    En este ejemplo vamos a poner un texto. En este texto vamos a hacer varios cambios.
 </div>
 
 <div class="row">
