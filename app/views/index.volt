@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}"/>
     </head>
     <body>
-        <div class="container bg-secondary">
+        <div class="container bg-light">
             {{ content() }}
         </div>
         <!-- jQuery first, then Popper.js, and then Bootstrap's JavaScript -->
