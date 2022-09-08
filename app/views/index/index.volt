@@ -13,7 +13,13 @@
 <div class="row">
     {% for user in users %}
 
-        <div class="col">{{ user.id ~ ' - ' ~ user.email }}</div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    {{ user.id ~ ' - ' ~ user.email }}
+                </div>
+            </div>
+        </div>
 
     {% endfor %}
 </div>
