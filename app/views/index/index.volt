@@ -6,10 +6,6 @@
     En este ejemplo vamos a poner un texto. En este texto vamos a hacer varios cambios. Y llegará un momento en el que se producirá un error.
 </div>
 
-<p class="m-5 bg-danger">
-    Asumamos que este texto es el error.
-</p>
-
 <div class="row">
     {% for user in users %}
 
